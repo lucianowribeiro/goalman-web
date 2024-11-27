@@ -27,6 +27,8 @@ export function PendingGoals() {
     async function handleCompleteGoals(goalId: string) {
         await createGoalCompletion(goalId)
         queryClient.invalidateQueries({ queryKey: ['summary'] })
+        queryClient.invalidateQueries({ queryKey: ['pending-goals'] })
+
     }
     return (<div className='flex flex-wrap gap-3'>
         {pendingGoals.map((goal, index) => (
