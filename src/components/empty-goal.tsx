@@ -1,9 +1,8 @@
-import logo from '../assets/logo.svg'
-import letsStarted from '../assets/lets-started.svg'
+import logo from '../../assets/logo.svg'
+import letsStarted from '../../assets/lets-started.svg'
 import { Plus } from 'lucide-react'
 import { Button } from './ui/button'
 import { Trigger } from '@radix-ui/react-dialog'
-import React from 'react'
 
 export function EmptyGoal() {
     return (
