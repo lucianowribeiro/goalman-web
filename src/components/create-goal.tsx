@@ -5,6 +5,7 @@ import { RadioGroup, RadioGroupItem, RadioGroupIndicator } from './ui/radio-grou
 import { X } from 'lucide-react'
 import { Button } from './ui/button'
 import { Content, Overlay, Portal, Title, Close, Description } from '@radix-ui/react-dialog'
+
 export function CreateGoal() {
     return (
         <Portal>
@@ -22,7 +23,7 @@ export function CreateGoal() {
                             Adicione atividades que te fazem bem e que você quer continuar praticando toda semana.
                         </Description>
                     </div>
-                    <form action="" className='flex flex-1 flex-col justify-between'>
+                    <form action="" className='flex flex-1 flex-col justify-between gap-3'>
                         <div className='flex flex-col gap-6'>
                             <div className='flex flex-col gap-2'>
                                 <Label htmlFor='title'>Qual a atividade</Label>
