@@ -72,7 +72,7 @@ export function Summary() {
                                     <span className='text-sm text-zinc-400'>
                                         Voce completou "
                                         <span className='text-zinc-100'>{goal.title}</span> {' '}ás{' '}
-                                        <span className='text-zinc-100'>{dayjs(goal.completedAt).format('HH:MM')}</span>
+                                        <span className='text-zinc-100'>{dayjs(goal.completedAt).format('HH:mm')}</span>
                                     </span>
                                 </li>
                             </ul>))}
